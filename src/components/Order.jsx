@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import  { Component } from 'react'
 import { FaTrash } from 'react-icons/fa'
 
 export class Order extends Component {

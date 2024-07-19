@@ -21,12 +21,23 @@ header{
   position: relative;
 }
 
+
 header .logo{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
+  color:rgb(44, 128, 238);
+  cursor: pointer;
+  transition: opacity 500ms ease;
+  font-style: oblique;
+}
+
+header .logo:hover{
+  opacity: 0.5;
+
 }
 
 header ul.nav{
+  font-size: 20px;
   float: right;
   list-style: none;
 }
@@ -42,6 +53,7 @@ header ul.nav li:hover{
 }
 
 header .shop-cart-button{
+  font-size: 20px;
   float: right;
   cursor: pointer;
   transition: color, transform 500ms ease;
@@ -55,7 +67,7 @@ header .shop-cart-button.active{
 
 header .shop-cart{
   position: absolute;
-  top: 30px;
+  top: 45px;
   right: 0;
   width: 450px;
   background: rgb(236, 236, 236);
@@ -139,7 +151,7 @@ header .presentation::after{
 }
 
 header .presentation::before{
-  content: 'at low prices';
+  content: 'At low prices';
   position: absolute;
   top: 250px;
   left: 50px;
@@ -246,3 +258,23 @@ footer{
   text-align: center;
   margin-top: 10px;
 }
+
+.about{
+  font-style: oblique;
+
+}
+
+.Contacts{
+  padding: 90px 0px 0px 0px;
+}
+
+.map{
+  font-style: oblique;
+  color: #dc3d3d;
+}
+
+.phone1{
+  font-style: oblique;
+  color:rgb(38, 253, 92);
+}
+

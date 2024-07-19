@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import  { Component } from 'react'
 import Item from './Item'
 
 export class Items extends Component {

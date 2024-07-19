@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import  { Component } from 'react'
 
 export class Categories extends Component {
     constructor(props) {
@@ -27,7 +27,11 @@ export class Categories extends Component {
                 },
                 {
                     key: 'Coffe Table',
-                    name: 'Coffe Table'
+                    name: 'Coffe Tables'
+                },
+                {
+                    key: 'Kitchen',
+                    name: 'Kitchen '
                 },
             ]
         }
